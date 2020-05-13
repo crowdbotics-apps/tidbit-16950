@@ -6,7 +6,6 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import MessengerNavigator from '../features/Messenger/navigator';
-import TutorialNavigator from '../features/Tutorial/navigator';
 
 /**
  * new navigators can be imported here
@@ -18,7 +17,6 @@ const AppNavigator = {
     },
     //@BlueprintNavigationInsertion
 Messenger: { screen: MessengerNavigator },
-Tutorial: { screen: TutorialNavigator },
 
     /** new navigators can be added here */
 };
